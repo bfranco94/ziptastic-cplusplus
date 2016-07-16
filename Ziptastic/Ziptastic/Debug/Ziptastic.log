@@ -1,0 +1,13 @@
+﻿Build started 7/16/2016 10:58:06 AM.
+     1>Project "C:\Users\bzfra_000\Documents\GitHubVisualStudio\ziptastic-cplusplus\Ziptastic\Ziptastic\Ziptastic.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Ziptastic.pch" /Fo"Debug\\" /Fd"Debug\Ziptastic.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\bzfra_000\Documents\GitHubVisualStudio\ziptastic-cplusplus\Ziptastic\Debug\Ziptastic.lib" /NOLOGO Debug\stdafx.obj
+         Ziptastic.vcxproj -> C:\Users\bzfra_000\Documents\GitHubVisualStudio\ziptastic-cplusplus\Ziptastic\Debug\Ziptastic.lib
+     1>Done Building Project "C:\Users\bzfra_000\Documents\GitHubVisualStudio\ziptastic-cplusplus\Ziptastic\Ziptastic\Ziptastic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.65
