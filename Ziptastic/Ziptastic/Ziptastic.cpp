@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
-#include <http_client.h>
-#include <filestream.h>
+#include <cpprest/http_client.h>
+#include <cpprest/filestream.h>
+
 #include <iostream>
 #include <sstream>
 
@@ -19,7 +20,6 @@ class Ziptastic
 		Ziptastic(string key); // Constructor
 		void forwardGeo(string countryCode, string postalCode);
 		void reverseGeo(string latitude, string longitude);
-		void makeRequest(string url);
 		void getApiKey();
 };
 
@@ -35,21 +35,28 @@ void Ziptastic::forwardGeo(string countryCode, string postalCode)
 	string url = ziptasticUrl + "/" + countryCode + "/" + postalCode;
 	cout << "\nForward Geocoding URL : " + url;
 
+
+
 }
 
 void Ziptastic::reverseGeo(string latitude, string longitude)
 {
 	string url = ziptasticUrl + "/reverse/" + latitude + "/" + longitude + "/1000";
 	cout << "\nReverse Geocoding URL : " + url;
+
+	/* Sample output:
+	Server returned returned status code 200.
+	*/
 }
 
-void Ziptastic::makeRequest(string url)
+pplx::task<void> MakeRequest(string url)
 {
-	http_client client(L url);
+	http_client client(L"https://www.sdasda.com");
 
 	// Manually build up an HTTP request with header and request URI.
 	http_request request(methods::GET);
-	request.headers().add(L"x-key", L"MyApiKey");
+	request.headers().add(L"MyHeaderField", L"MyHeaderValue");
+	request.set_request_uri(L"requestpath");
 	return client.request(request).then([](http_response response)
 	{
 		// Print the status code.

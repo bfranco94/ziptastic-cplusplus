@@ -1,25 +1,25 @@
-﻿Build started 7/17/2016 10:55:56 AM.
-     1>Project "C:\Users\bzfra_000\Documents\Visual Studio 2015\Other Projects\Ziptastic\Ziptastic\Ziptastic.vcxproj" on node 2 (Build target(s)).
+﻿Build started 7/18/2016 12:34:22 PM.
+     1>Project "C:\Users\bzfra_000\Documents\GitHub\ziptastic-cplusplus\Ziptastic\Ziptastic\Ziptastic.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Ziptastic.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\bzfra_000\Documents\GitHub\ziptastic-cplusplus\Ziptastic\packages\cpprestsdk.v140.windesktop.msvcstl.dyn.rt-dyn.2.8.0\build\native\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Ziptastic.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt /d2notypeopt stdafx.cpp
          stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Ziptastic.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Ziptastic.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\bzfra_000\Documents\GitHub\ziptastic-cplusplus\Ziptastic\packages\cpprestsdk.v140.windesktop.msvcstl.dyn.rt-dyn.2.8.0\build\native\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Ziptastic.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt /d2notypeopt Ziptastic.cpp
          Ziptastic.cpp
-     1>c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(3): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
-         c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(3): note: Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(4): warning C4627: '#include <string>': skipped when looking for precompiled header use
-         c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(4): note: Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(5): warning C4627: '#include <http_client.h>': skipped when looking for precompiled header use
-         c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(5): note: Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(6): warning C4627: '#include <filestream.h>': skipped when looking for precompiled header use
-         c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(6): note: Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(7): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
-         c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(7): note: Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(8): warning C4627: '#include <sstream>': skipped when looking for precompiled header use
-         c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(8): note: Add directive to 'stdafx.h' or rebuild precompiled header
-     1>c:\users\bzfra_000\documents\visual studio 2015\other projects\ziptastic\ziptastic\ziptastic.cpp(82): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
-     1>Done Building Project "C:\Users\bzfra_000\Documents\Visual Studio 2015\Other Projects\Ziptastic\Ziptastic\Ziptastic.vcxproj" (Build target(s)) -- FAILED.
+     1>c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(1): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+         c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(1): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(2): warning C4627: '#include <string>': skipped when looking for precompiled header use
+         c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(2): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(3): warning C4627: '#include <cpprest/http_client.h>': skipped when looking for precompiled header use
+         c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(3): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(4): warning C4627: '#include <cpprest/filestream.h>': skipped when looking for precompiled header use
+         c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(4): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(5): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+         c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(5): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(6): warning C4627: '#include <sstream>': skipped when looking for precompiled header use
+         c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(6): note: Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\bzfra_000\documents\github\ziptastic-cplusplus\ziptastic\ziptastic\ziptastic.cpp(78): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+     1>Done Building Project "C:\Users\bzfra_000\Documents\GitHub\ziptastic-cplusplus\Ziptastic\Ziptastic\Ziptastic.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.94
+Time Elapsed 00:00:01.03
